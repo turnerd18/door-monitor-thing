@@ -1,0 +1,8 @@
+.idea
+venv
+*.zip
+
+lambda/*
+!lambda/*.py
+!lambda/setup.cfg
+
