@@ -103,7 +103,6 @@ shadow_client.configureConnectDisconnectTimeout(10)  # 10 sec
 shadow_client.configureMQTTOperationTimeout(5)  # 5 sec
 
 shadow_client.connect()
-shadow_client.
 
 device_shadow_handler = shadow_client.createShadowHandlerWithName(THING_NAME, True)
 
